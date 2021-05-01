@@ -7,4 +7,6 @@ Performing analysis on Kickstarter data to uncover trends to help Louise with th
 2. Images
   * Testing 
 
-- Conclusion
+3. Conclusion
+* Testing
+- Example
