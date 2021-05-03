@@ -13,7 +13,7 @@
 
 ### Purpose 
 
-For this project we aimed to help Louise undertake the launch of a play and potentially future musicals by leveraging Kickstarter data. The main objective was to help her make important decisions to maximize the possibilities of having a successful outcome for her campaign. For this we will be leveraging statistical analysis along with visual aids to identify trends and provide a recommendation to Louise based on the outcome of previously recorded campaigns by looking at the outcome and launch dates. 
+For this project we aimed to help Louise undertake the launch of a play by leveraging Kickstarter data. The main objective was to help her make important decisions to maximize the possibilities of having a successful outcome for her campaign. For this we will be leveraging statistical analysis along with visual aids to identify trends and provide a recommendation to Louise based on the outcome of previously recorded campaigns by looking at the outcome and launch dates. 
 
 This data contains information collected internationally over the period of 7 years (from 2010 - 2017).
 
