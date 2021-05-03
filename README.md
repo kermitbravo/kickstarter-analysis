@@ -1,6 +1,8 @@
 # An Analysis of Kickstarter Campaigns
 *Performing analysis on **Kickstarter** data to uncover trends to help <ins>Louise</ins> with the decision-making progress for her future plays using Excel. *
 
+The complete Excel analysis can be found [here] (/Kickstarter_Challenge.zip)
+
 ## Table of Contents
 
 |Contents                   |
