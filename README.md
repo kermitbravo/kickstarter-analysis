@@ -1,5 +1,5 @@
 # An Analysis of Kickstarter Campaigns
-*Performing analysis on **Kickstarter** data to uncover trends to help <ins>Louise</ins> with the decision-making progress for her future plays and musicals. *
+*Performing analysis on **Kickstarter** data to uncover trends to help <ins>Louise</ins> with the decision-making progress for her future plays using Excel. *
 
 ## Table of Contents
 
@@ -11,27 +11,68 @@
 
 ## Overview of the Project
 
-For this project we aimed to help Louise undertake the launch of a play and potentially future musicals by leveraging Kickstarter data. The main objective was to help her make important decisions to maximize the possibilities of having a successful outcome for her campaign. For this we will be leveraging statistical analysis along with visual aids to identify trends and provide a recommendation to Louise based on the outcome of previous campaigns. This data contains information collected internationally over the period of 7 years (from 2010 - 2017).
+### Purpose 
+
+For this project we aimed to help Louise undertake the launch of a play and potentially future musicals by leveraging Kickstarter data. The main objective was to help her make important decisions to maximize the possibilities of having a successful outcome for her campaign. For this we will be leveraging statistical analysis along with visual aids to identify trends and provide a recommendation to Louise based on the outcome of previously recorded campaigns by looking at the outcome and launch dates. 
+
+This data contains information collected internationally over the period of 7 years (from 2010 - 2017).
 
 ## Analysis and Challenges
 
 ### Analysis
 
+For this analysis we looked at the proportions of successful vs Failed vs Cancelled campaigns based on launch dates first at the Parent Category level, Theater. 
 
-### Challenge
-
-The main challenge that we encountered was that with the data collected and during this period of time selected, there were no cancelled campaigns specific to Theater/Plays. Because of this, we couldn't collect potential reasons why a cancellation of a campaign might happen or any other relevant parameters. This could mean that these types of campaings either fail or succeed but we can't say for sure with the data collected. 
-
-### Taking a look at the outcome of Theater campaigns by month
+### Analysis of Outcomes Based on Launch Date
 
 ![Outcomes vs Goals Line Chart.](/Resources/Theater_Outcomes_vs_Launch.png "This line chart represents a comparison between Theater campaigns by month and by outcome ( Successful vs Failed vs Canceled  .")
 
-### Digging a little deeper and looking at plays by outcome and goal
+From this we were able to make the following observations: 
+
+- Theater campaigns launched in May tend to be at least 3x more successful than campaigns launched in December. 
+- May is the month in which more theater campaigns are launched. But also, ~66% of the campaigns launched in this month were successful which is a higher percentage than any other month. 
+- October seems to be a specially challenging month given that ~43% of the campaigns launched in this month failed. 
+
+###  Analysis of Outcomes Based on Goals
+
+We followed this analysis by drilling-down into the Subcategory "Plays" to narrow down the analysis to the relevant subset of that that we cared about. We focused this analysis on a series of ranges to classify our data in smaller subsections to try to identify trends between Goal amounts and the outcome. 
+
+From this analysis we were able to make the following observations: 
+
+- Plays keeping the goal of the campaign to under $1,000 seems to yield an 80% success rate.
+- Plays with goals approaching $15,000 become basically hit or miss with a 50% rate of success/failure  
+- For everything else we can say that keeping plays on a budget between $35,000 to $44,999 turns out to be the "sweet spot" for a successful campaign
+
 
 ![Outcomes vs Goals Line Chart.](/Resources/Outcomes_vs_Goals.png "This line chart represents a comparison of Kickstarter Plays classified by outcome ( Successful vs Failed vs Canceled ) and by Goal ranges.")
 
+### Challenges and Difficulties Encountered
+
+The main challenge that we encountered was that with the data collected and during this period of time selected, there were no cancelled campaigns specific to Theater/Plays. Because of this, we couldn't collect potential reasons why a cancellation of a campaign might happen or any other relevant parameters to do a more focused analysis on this parameter. Another challenge that we encountered was that for the purposes of this analysis we decided to omit plays with Goals of $50,000 which left a few (4 failed ) plays out of the analysis which could skew our analysis and conclusions or any future predictions. 
+
+Plays that have a goal of under $1,000 have a high rate of success but the difference between the mean and this lower threshold seems high so it might be worth analyzing if these are outliers or if they should be considered in this analysis. If they should be considered maybe trying to dig into the size of the play or considering other factors would be relevant for this analysis.  
+
+The most important aspect in my opinion is that I can't tell if the Goal is all in USD or if it's in several different source currencies which would skew our results when doing a cross-country analysis. 
 
 ## Results
+
+After performing this statistical analysis and creating some visualizations we were able to identify a couple of trends that should help Louise with her decision. 
+
+With the information gathered during this analysis and by leveraging the Outcomes based on Launch Date charts, we can conclude that:
+- Launching campaigns closer to May is the smart play given the higher success rate observed.
+- We should avoid October launches if possible. 
+
+Specifically, when talking about theater plays, we can conclude that: 
+- Aiming for a goal between $35,000 and $44,900 yields the best chance of having a successful campaign .
+- We need to pay special attention to plays with goals under $1,000 to understand more about those campaigns and determine how relevant they are to our analysis.
+
+After getting familiar with the data coming from Kickstarter and after understanding what Louise is looking for we can identify a few limitations: 
+
+1. The data is at a "Country" level and doesn't allow us to drill-down to regional markets to better understand the success/fail ratios of local markets.
+2. This dataset doesn't have more information like demographics of the backers for us to target the campaign to our market and increase the chance of success.
+3. The dataset should be homogeneous and translated all to a common currency to ensure that we are comparing apples to apples. 
+
+To compliment this analysis, we could come up with a "Box and Whisker" chart to identify outliers in our data to guide us through our decision-making process. We could also chart a histogram to identify if our dataset is skewed to the left or right to better understand if our sweet spot leans to the high or low end of our dataset.
 
 :sunglasses: :space_invader: :robot:	
 :see_no_evil: :hear_no_evil: :speak_no_evil:
