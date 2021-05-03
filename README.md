@@ -15,6 +15,11 @@ For this project we aimed to help Louise undertake the launch of a play and pote
 
 ## Analysis and Challenges
 
+### Analysis
+
+
+### Challenge
+
 The main challenge that we encountered was that with the data collected and during this period of time selected, there were no cancelled campaigns specific to Theater/Plays. Because of this, we couldn't collect potential reasons why a cancellation of a campaign might happen or any other relevant parameters. This could mean that these types of campaings either fail or succeed but we can't say for sure with the data collected. 
 
 ### Taking a look at the outcome of Theater campaigns by month
